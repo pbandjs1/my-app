@@ -8,8 +8,12 @@ export default function Home() {
         Edit this text in <code>pages/index.js</code> to make it yours.
       </p>
       <button className="px-6 py-3 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition">
-        Click Me!
+        Clicking this button does nothing.
       </button>
+      <p className="text-lg text-gray-700 mb-6">
+        My name is Nick and I threw the first pitch at a Seattle Mariners Game when I was 8.
+      </p>
+      <img src="C:\Projects\my-app\src\app\images\mariners.jpg" className="h-auto" />
     </main>
   )
 }
